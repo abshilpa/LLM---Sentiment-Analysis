@@ -31,6 +31,11 @@ What I Did
 
   Results
 I achieved an overall accuracy of ~89%, with high precision for Positive and Negative classes. Neutral class performance was lower due to its ambiguous nature and limited samples in the dataset.
+
+
+<img width="539" height="273" alt="image" src="https://github.com/user-attachments/assets/f32ca9c1-e766-4d2a-b294-6968e5438af5" />
+
+
 The model accurately predicted real-world review sentiments and returned confidence scores. I tested it with multiple sample texts, showing high confidence for clearly expressed opinions.
 
 Future Work
