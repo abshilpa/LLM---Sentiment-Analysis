@@ -4,8 +4,19 @@ Sentiment Analysis on Amazon Product Reviews using BERT
 <img width="422" height="180" alt="image" src="https://github.com/user-attachments/assets/f82a7764-41c5-4e55-8c82-d04af5203abc" />
 
 
-In this project, I built a sentiment analysis model using the pre-trained transformer bert-base-uncased. My goal was to extract the Voice of the Customer (VOC) from Amazon product reviews capturing what users are really saying about a product’s performance, cost, and usability. VOC is vital in customer experience management and helps drive product improvements, making it a meaningful real-world application of NLP.
-To tackle this, I fine-tuned BERT to classify reviews into Negative 😠, Neutral 😐, and Positive sentiment 😊, using the star ratings provided by customers. Since BERT understands word meaning in full context by reading text bidirectionally, it is well-suited for interpreting real-world customer opinions.
+Voice of the Customer (VOC)
+This project is focused on capturing the Voice of the Customer (VOC) by analyzing Amazon product reviews. VOC involves understanding what customers truly express about a product’s performance, usability, and cost. By analyzing this feedback, I aimed to extract both functional and non-functional insights that can help drive product improvements.
+
+Project Overview
+I fine-tuned a pre-trained bert-base-uncased transformer model to classify Amazon reviews into three sentiment classes:
+
+Negative 😠
+
+Neutral 😐
+
+Positive 😊
+
+The goal was to extract useful insights from customer reviews to support better product decisions and enhance user experience.
 
 
 What I Did
